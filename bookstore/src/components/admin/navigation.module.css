@@ -1,0 +1,43 @@
+.navigation {
+  padding: 100px 0;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  margin: 0;
+  list-style: none;
+}
+
+.navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: transform .3s;
+}
+
+.navigation ul li a:hover {
+  transform: scale(1.1);
+}
+
+.logout {
+  background: none;
+  border: none;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: transform .3s;
+  width: 100%;
+  text-align: left;
+}
+
+.logout:hover {
+  transform: scale(1.1);
+  background-color: #c8a722;
+}

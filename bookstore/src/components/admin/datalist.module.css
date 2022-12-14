@@ -1,0 +1,76 @@
+.table {
+    display: block;
+    background-color: #fff;
+    height: 75vh;
+    overflow-y: scroll;
+}
+.table ul {
+    margin: 10px 0;
+    padding: 10px 8px;
+    background-color: #f3f3f3;
+    display: flex;
+}
+
+.table ul:first-child {
+    background: #fce4e4;
+    font-weight: 500;
+}
+
+.table ul li:first-child {
+    width: 30%;
+} 
+
+.table ul li:nth-child(5) {
+    width: 5%;
+} 
+
+.table ul li:nth-child(6) {
+    width: 20%;
+} 
+
+.table ul li {
+    display: inline-block;
+    width: 15.28%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.table ul li:last-child {
+    text-align: center;
+}
+
+.view {
+    background-color: #99d7db;
+    border-radius: 4px;
+    border-color: #ccc;
+    margin-right: 4px;
+    padding: 5px;
+}
+
+.remove {
+    background-color: #ff3e3e;
+    border-radius: 4px;
+    border-color: #ccc;
+    margin-right: 4px;
+    padding: 5px;
+    color: #fff;
+}
+
+.edit {
+    background-color: #26981c;
+    border-radius: 4px;
+    border-color: #ccc;
+    margin-right: 4px;
+    padding: 5px;
+    color: #fff;
+}
+
+.revert {
+    background-color: #575bfc;
+    border-radius: 4px;
+    border-color: #ccc;
+    margin-right: 4px;
+    padding: 5px;
+    color: #fff;
+}

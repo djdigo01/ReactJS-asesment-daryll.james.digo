@@ -1,0 +1,47 @@
+.table {
+    display: block;
+    background-color: #fff;
+    height: 75vh;
+}
+.table ul {
+    margin: 10px 0;
+    padding: 10px 8px;
+    background-color: #f3f3f3;
+    display: flex;
+}
+
+.table ul:first-child {
+    background: #fce4e4;
+    font-weight: 500;
+}
+
+.table ul li:first-child {
+    width: 25%;
+} 
+
+.table ul li:nth-child(4) {
+    width: 10%;
+    text-align: center;
+} 
+
+
+.table ul li {
+    display: inline-block;
+    width: 15.28%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.table ul li:last-child {
+    text-align: center;
+}
+
+.view {
+    background-color: #99d7db;
+    border-radius: 4px;
+    border-color: #ccc;
+    margin-right: 4px;
+    padding: 5px;
+    width: 50%;
+}

@@ -1,0 +1,82 @@
+.view {
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 50px 200px;
+}
+
+.view_content {
+  display: flex;
+}
+
+.image_container {
+  width: 30%;
+}
+
+.image {
+  width: 100%;
+}
+
+.book_details {
+  width: 70%;
+}
+
+.book_details li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.book_details li span {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.book_details li span:last-child {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.book_description h5 {
+  font-size: 18px;
+}
+
+.book_description p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.action {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: right;
+}
+
+.action a {
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4e7f14;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.backtohome {
+  display: block;
+  text-align: left;
+}
+
+.backtohome a {
+  background: none !important;
+  border: none;
+  color: #4e7f14;
+}
+
+.backtohome a:hover {
+  text-decoration: underline;
+}

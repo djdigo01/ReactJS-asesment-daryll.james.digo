@@ -1,0 +1,35 @@
+.admin {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  background: radial-gradient(#000101, #ff0f0f00);
+  height: 90vh;
+  box-shadow: 1px 3px 16px #000;
+}
+.sidebar {
+  width: 20%;
+  display: inline-block;
+  margin-right: 10px;
+  background: #01797a;
+}
+
+.sidebar nav {
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+  width: 80%;
+}
+
+.pageTitle {
+  margin: 20px 0;
+  background-color: #058189;
+  padding: 5px;
+}
+
+.pageTitle h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+}

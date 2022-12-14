@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/09f37474771629.5c39fb854e918.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+aside a.active {
+  background-color: #c8a722;
+  font-weight: 500;
+}
+
+aside a:hover {
+  background-color: #c8a722;
+  font-weight: 500;
+}
+
+.notification {
+  background-color: #4e7f14;
+  color: #fff;
+  padding: 10px 7px;
+  border-radius: 3px;
+  width: 100%;
+}

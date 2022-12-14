@@ -1,0 +1,45 @@
+.viewModal ul li {
+    display: flex;
+}
+.book {
+    display: flex;
+}
+
+.book div:last-child{
+    margin-top: 0;
+    text-align: left !important;
+    border-top: none;
+    padding: 0;
+}
+
+.img_container {
+    margin-right: 20px;
+    width: 150px;
+}
+
+.book_detail div {
+    display: block !important;
+    margin-bottom: 10px;
+}
+
+.book_description div {
+    margin: 0;
+    text-align: left !important;
+    font-weight: 500;
+    padding: 10px 0 !important;
+    border-top: 0 !important;
+}
+
+.book_description {
+    margin-top: 20px;
+    display: block !important;
+    width: 100%;
+}
+
+.book_description ul {
+    padding: 0;
+}
+
+.book_description ul li {
+    padding: 5px 0;
+}

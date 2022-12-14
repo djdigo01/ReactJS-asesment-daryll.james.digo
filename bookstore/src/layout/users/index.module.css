@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  background-color: #4e7f14;
+  padding: 20px 0;
+}
+
+.header__content {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__home {
+  width: 50%;
+}
+
+.header__home a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.header__home a:hover {
+  color: #eac00c;
+}
+
+.header__login {
+  width: 50%;
+  text-align: right;
+}
+
+.header__login span {
+  color: #ffcf00;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.header__login button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logout {
+  font-size: 15px !important;
+  margin-left: 20px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 10px 15px;
+}
+
+.logoutNotif {
+  background-color: #4e7f14;
+  color: #fff;
+  padding: 10px 7px;
+  border-radius: 3px;
+  position: absolute;
+  width: 77%;
+  text-align: center;
+  top: 18%;
+}

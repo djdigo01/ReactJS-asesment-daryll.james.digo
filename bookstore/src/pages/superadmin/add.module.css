@@ -1,0 +1,91 @@
+.add {
+  display: block;
+  background-color: #fff;
+  height: 80vh;
+  position: relative;
+}
+
+.add form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.input_item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input_item label {
+  display: block;
+  width: 100%;
+}
+
+.input_item input,
+.input_item textarea {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+  border: 2px solid #9c9898;
+  border-radius: 5px;
+}
+
+.input_item textarea {
+  resize: none;
+  height: 100px;
+}
+
+.action {
+  display: block;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.action button {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-left: 15px;
+  width: 120px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit {
+  background-color: green;
+  transition: transform 0.3s;
+  color: #fff;
+}
+
+.reset {
+  background-color: red;
+  transition: transform 0.3s;
+  color: #fff;
+}
+
+.submit:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.reset:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.errorMsg {
+  color: red;
+  font-weight: 500;
+}
+
+.notif {
+  background-color: #4e7f14;
+  color: #fff;
+  padding: 10px 7px;
+  border-radius: 3px;
+  width: 80%;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
